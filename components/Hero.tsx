@@ -1,5 +1,6 @@
 import Container from './layout/Container';
 import HeroButtonGroup from './HeroButtonGroup';
+import CustomerIcons from './CustomerIcons';
 
 export default function Hero() {
   return (
@@ -17,6 +18,12 @@ export default function Hero() {
             </p>
           </div>
           <HeroButtonGroup />
+          <div className='flex items-center'>
+            <CustomerIcons />
+            <p className="text-customLime-700 text-base font-bold">
+              500K+ Our Happy Customers
+            </p>
+          </div>
         </div>
       </Container>
     </section>
