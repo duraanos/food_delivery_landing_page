@@ -3,7 +3,7 @@ import NavbarButtonGroup from './NavbarButtonGroup';
 
 export default function Navbar() {
   return (
-    <nav>
+    <nav className='flex justify-between'>
       <Logo />
       <NavbarButtonGroup />
     </nav>
