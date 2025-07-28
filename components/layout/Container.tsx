@@ -10,7 +10,7 @@ export default function Container({
   className = '',
 }: ContainerProps) {
   return (
-    <div className="container mx-auto w-full xl:px-0 xl:max-w-xl">
+    <div className="max-w-[1180px] mx-auto p-4">
       {children}
     </div>
   );
