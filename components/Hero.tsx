@@ -18,7 +18,7 @@ export default function Hero() {
             </p>
           </div>
           <HeroButtonGroup />
-          <div className='flex items-center'>
+          <div className='flex items-center gap-3'>
             <CustomerIcons />
             <p className="text-customLime-700 text-base font-bold">
               500K+ Our Happy Customers
