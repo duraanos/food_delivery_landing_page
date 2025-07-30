@@ -26,15 +26,15 @@ export default function Hero() {
             </p>
           </div>
         </div>
-        <div className=" flex justify-center w-1/2">
+        <div className="relative flex justify-center w-1/2">
+          <div className="absolute right-10 bottom-0 bg-customLime-700 w-[475] h-[475] rounded-full blur-[100px]"></div>
           <Image
             src="/images/hero.png"
             alt="hero_image"
             width={400}
             height={400}
-            className="block"
+            className='z-10'
           />
-          <div></div>
         </div>
       </div>
     </section>
