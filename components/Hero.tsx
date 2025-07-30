@@ -9,10 +9,13 @@ export default function Hero() {
       <div className="flex items-center justify-between">
         <div className="flex flex-col w-1/2 gap-[20px]">
           <div className="flex flex-col gap-[5px]">
-            <h1 className="text-customGray-900 font-bold text-4xl">
-              Skip the Line, <br></br> Savor the Taste
+            <h1 className="text-customGray-900 font-bold text-5xl">
+              Skip the Line, <br></br> Savor the{' '}
+              <strong className="underline decoration-customLime-700">
+                Taste
+              </strong>
             </h1>
-            <p className="text-xl">
+            <p className="text-base">
               No more waiting, no more stress <br></br> order ahead, track your
               meal in real time...
             </p>
