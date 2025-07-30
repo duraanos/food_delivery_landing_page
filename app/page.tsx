@@ -1,5 +1,18 @@
+import Container from '@/components/layout/Container';
+import Header from '@/components/Header';
+import Hero from '@/components/Hero';
+
 function Home() {
-  return <h1 className="text-heading1">Hello Next.js</h1>;
+  return (
+    <>
+      <div className="bg-gradient-to-r from-customLime-100 from-0% to-customLime-200 to-72%">
+        <Container>
+          <Header />
+          <Hero />
+        </Container>
+      </div>
+    </>
+  );
 }
 
 export default Home;
