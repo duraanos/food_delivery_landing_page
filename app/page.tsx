@@ -8,7 +8,9 @@ function Home() {
       <div className="bg-gradient-to-r from-customLime-100 from-0% to-customLime-200 to-72%">
         <Container>
           <Header />
-          <Hero />
+          <main>
+            <Hero />
+          </main>
         </Container>
       </div>
     </>
