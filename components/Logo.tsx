@@ -7,7 +7,7 @@ export default function Logo() {
       <Image
         src="/images/logo.svg"
         alt="Company Logo"
-        width={172}
+        width={130}
         height={52}
       />
     </Link>
