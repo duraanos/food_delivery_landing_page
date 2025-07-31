@@ -13,7 +13,9 @@ function Home() {
         </Container>
       </div>
       <main>
-        <HowToWorkSection />
+        <Container>
+          <HowToWorkSection />
+        </Container>
       </main>
     </>
   );
