@@ -3,7 +3,7 @@ import HowToWorkCard from './HowToWorkCard';
 export default function HowToWorkSection() {
   return (
     <section>
-      <div className="flex flex-col justify-between items-center gap-[16px]">
+      <div className="flex flex-col justify-between items-center gap-[16px] mb-5">
         <h2 className="font-medium text-4xl">How to Work</h2>
         <p className="text-lg text-customLime-900">
           Browse, order, and enjoy—right to your door in just a few taps.
