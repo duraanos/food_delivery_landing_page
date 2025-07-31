@@ -6,7 +6,7 @@ import HowToWorkSection from '@/components/HowToWorkSection';
 function Home() {
   return (
     <>
-      <div className="bg-gradient-to-r from-customLime-100 from-0% to-customLime-200 to-72%">
+      <div className="bg-gradient-to-r from-customLime-100 from-0% to-customLime-200 to-72% mb-32">
         <Container>
           <Header />
           <Hero />
