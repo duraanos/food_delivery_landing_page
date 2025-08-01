@@ -4,6 +4,7 @@ import Hero from '@/components/Hero';
 import HowToWorkSection from '@/components/HowToWorkSection';
 import LetsDoItTogetherSection from '@/components/LetsDoItTogetherSection';
 import DownLoadToAppSection from '@/components/DownloadToAppSection';
+import Footer from '@/components/Footer';
 
 function Home() {
   return (
@@ -26,6 +27,11 @@ function Home() {
         <Container>
           <DownLoadToAppSection />
         </Container>
+        <div className="bg-customLime-900">
+          <Container>
+            <Footer />
+          </Container>
+        </div>
       </main>
     </>
   );
