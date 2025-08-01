@@ -3,6 +3,7 @@ import Header from '@/components/Header';
 import Hero from '@/components/Hero';
 import HowToWorkSection from '@/components/HowToWorkSection';
 import LetsDoItTogetherSection from '@/components/LetsDoItTogetherSection';
+import DownLoadToAppSection from '@/components/DownloadToAppSection';
 
 function Home() {
   return (
@@ -17,11 +18,14 @@ function Home() {
         <Container>
           <HowToWorkSection />
         </Container>
-        <div className="bg-[url('/images/wavy_bg.png')] bg-cover  w-full">
+        <div className="bg-[url('/images/wavy_bg.png')] bg-cover w-full mb-32">
           <Container>
             <LetsDoItTogetherSection />
           </Container>
         </div>
+        <Container>
+          <DownLoadToAppSection />
+        </Container>
       </main>
     </>
   );
