@@ -1,6 +1,7 @@
+import type { Metadata } from 'next';
 import './globals.css';
 import { poppins } from './fonts';
-import type { Metadata } from 'next';
+
 
 export const metadata: Metadata = {
   title: 'Food Delivery Landing Page',
