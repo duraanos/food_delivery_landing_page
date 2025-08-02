@@ -6,14 +6,12 @@ export default function DownLoadToAppSection() {
     <section className="mb-32">
       <div className="flex flex-col items-center justify-between gap-[5px]">
         <div>
-          <Link href={'/'}>
-            <Image
-              src="/images/download_to_app.svg"
-              alt="download_to_app"
-              width={225}
-              height={225}
-            />
-          </Link>
+          <Image
+            src="/images/download_to_app.svg"
+            alt="download_to_app"
+            width={225}
+            height={225}
+          />
         </div>
         <h3 className="font-bold text-3xl text-customLime-900">
           Download to App
