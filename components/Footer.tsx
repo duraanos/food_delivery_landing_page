@@ -68,6 +68,7 @@ export default function Footer() {
               />
             </Link>
           </div>
+          <p className='text-customLime-100 text-xs'>© BellyGo 2030 - All Rights Reserved</p>
         </div>
         <div className="flex justify-center gap-10">
           <div>
