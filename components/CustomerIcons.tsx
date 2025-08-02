@@ -9,7 +9,7 @@ export default function CustomerIcons() {
         width={35}
         height={35}
         quality={100}
-        className="rounded-full h-9"
+        className="rounded-full h-9 -mr-1"
       />
       <Image
         src="/images/customer-2.jpg"
@@ -17,7 +17,7 @@ export default function CustomerIcons() {
         width={35}
         height={35}
         quality={100}
-        className="rounded-full h-9"
+        className="rounded-full h-9 -mr-1"
       />
       <Image
         src="/images/customer-3.jpg"
@@ -25,7 +25,7 @@ export default function CustomerIcons() {
         width={35}
         height={35}
         quality={100}
-        className="rounded-full h-9"
+        className="rounded-full h-9 -mr-1"
       />
       <Image
         src="/images/customer-4.jpg"
@@ -33,7 +33,7 @@ export default function CustomerIcons() {
         width={35}
         height={35}
         quality={100}
-        className="rounded-full h-9"
+        className="rounded-full h-9 -mr-1"
       />
     </div>
   );
