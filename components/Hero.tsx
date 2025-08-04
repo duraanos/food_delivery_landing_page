@@ -28,24 +28,24 @@ export default function Hero() {
             </p>
           </div>
         </div>
-        <div className="hero-images">
+        <div className="hero-cards">
           <MealCard
             image="/images/meal-1.png"
             meal="Traditional Pasta"
             price="$30.00"
-            className="hero-imagesCustomClass1"
+            className="absolute right-60 bottom-10 z-20"
           />
           <MealCard
             image="/images/meal-2.png"
             meal="Fish Dish"
             price="$30.00"
-            className="hero-imagesCustomClass2"
+            className="absolute left-[262px] bottom-[225px] z-10"
           />
           <MealCard
             image="/images/meal-3.png"
             meal="Steak Frites"
             price="$30.00"
-            className="hero-imagesCustomClass3"
+            className="absolute left-72 bottom-4 z-20"
           />
           <div className="absolute -right-10 bottom-10 bg-customLime-700 w-[475] h-[475] rounded-full blur-[70px]"></div>
           <Image

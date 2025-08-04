@@ -88,7 +88,7 @@ body {
   @apply text-customLime-700 text-base font-bold;
 }
 
-.hero-images {
+.hero-cards {
   @apply relative flex justify-center;
 }
 
