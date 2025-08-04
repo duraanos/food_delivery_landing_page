@@ -64,6 +64,10 @@ body {
   @apply text-customGray-900 font-bold text-5xl;
 }
 
+.textUnderline {
+  @apply underline decoration-customLime-700
+}
+
 .hero-buttonGroup {
   @apply flex gap-[20px];
 }

@@ -10,8 +10,8 @@ export default function Hero() {
         <div className="hero-banner">
           <div className="hero-bannerTexts">
             <h1 className="hero-title">
-              Skip the Line, <br></br> Savor the{' '}
-              <strong className="underline decoration-customLime-700">
+              Skip the Line, <br></br> Savor the {' '}
+              <strong className="textUnderline">
                 Taste
               </strong>
             </h1>
