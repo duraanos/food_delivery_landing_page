@@ -3,8 +3,8 @@ import Image from 'next/image';
 
 export default function DownLoadToAppSection() {
   return (
-    <section className="mb-32">
-      <div className="flex flex-col items-center justify-between gap-[5px]">
+    <section className="downloadtoapp">
+      <div className="downloadtoapp-item">
         <div>
           <Image
             src="/images/download_to_app.svg"
@@ -13,14 +13,14 @@ export default function DownLoadToAppSection() {
             height={225}
           />
         </div>
-        <h3 className="font-bold text-3xl text-customLime-900">
+        <h3 className="downloadtoapp-title">
           Download to App
         </h3>
-        <p className="text-customLime-900 text-xl">
+        <p className="downloadtoapp-description">
           Order food faster, track deliveries in real-time, and unlock exclusive
           app-only deals.
         </p>
-        <div className="flex gap-5">
+        <div className="downloadtoapp-platforms">
           <Link href={'/'}>
             <Image
               src={'/images/app_store.svg'}
