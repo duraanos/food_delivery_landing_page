@@ -42,3 +42,89 @@ body {
 .buttonGroup-SecondItem {
   @apply bg-customLime-950 text-white rounded-[16px] font-medium p-[10px];
 }
+
+/* HERO MODULE */
+
+.hero {
+  @apply flex items-center;
+}
+
+.hero-banner {
+  @apply flex flex-col w-1/2 gap-[20px];
+}
+
+.hero-bannerTexts {
+  @apply flex flex-col gap-[5px];
+}
+
+.hero-title {
+  @apply text-customGray-900 font-bold text-5xl;
+}
+
+.hero-buttonGroup {
+  @apply flex gap-[20px];
+}
+
+.hero-getStartedButton {
+  @apply bg-customLime-950 text-white rounded-[16px] font-medium px-[10px] py-[10px];
+}
+
+.hero-watchVideoButton {
+  @apply border-2 border-customLime-950 rounded-[16px] font-medium px-[10px] py-[10px];
+}
+
+.hero-customers {
+  @apply flex items-center gap-3;
+}
+
+.hero-customer {
+  @apply rounded-full h-9 -mr-1;
+}
+
+.hero-customerDescription {
+  @apply text-customLime-700 text-base font-bold;
+}
+
+.hero-images {
+  @apply relative flex justify-center;
+}
+
+.hero-imagesCustomClass1 {
+  @apply absolute right-60 bottom-10 z-20;
+}
+
+.hero-imagesCustomClass2 {
+  @apply absolute left-[262px] bottom-[225px] z-10;
+}
+
+.hero-imagesCustomClass2 {
+  @apply absolute left-72 bottom-4 z-20;
+}
+
+.hero-imageCustom {
+  @apply z-10 w-full;
+}
+
+.hero-mealCard {
+  @apply bg-white p-[10px] w-[300] h-[85] flex items-center gap-[10px] rounded-2xl;
+}
+
+.hero-mealCardItem {
+  @apply flex flex-col gap-[5px];
+}
+
+.hero-mealCardMealName {
+  @apply font-medium;
+}
+
+.hero-mealCardBox {
+  @apply flex gap-[50px] items-center justify-center;
+}
+
+.hero-mealCardPrice {
+  @apply font-medium;
+}
+
+.hero-mealCardUnderlined {
+  @apply font-medium underline;
+}
