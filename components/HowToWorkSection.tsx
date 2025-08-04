@@ -2,14 +2,14 @@ import HowToWorkCard from './HowToWorkCard';
 
 export default function HowToWorkSection() {
   return (
-    <section className='mb-32'>
-      <div className="flex flex-col justify-between items-center gap-[16px] mb-5">
-        <h2 className="font-medium text-4xl">How to Work</h2>
-        <p className="text-lg text-customLime-900">
+    <section className='howtowork'>
+      <div className="howtowork-item">
+        <h2 className="howtowork-title">How to Work</h2>
+        <p className="howtowork-description">
           Browse, order, and enjoy—right to your door in just a few taps.
         </p>
       </div>
-      <div className="grid grid-cols-4 gap-4">
+      <div className="howtowork-cards">
         <HowToWorkCard
           iconSrc="icons/choose_your_meal_icon.svg"
           title="Choose Your Meal"
