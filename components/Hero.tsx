@@ -47,7 +47,7 @@ export default function Hero() {
             price="$30.00"
             className="absolute left-72 bottom-4 z-20"
           />
-          <div className="absolute -right-10 bottom-10 bg-customLime-700 w-[475] h-[475] rounded-full blur-[70px]"></div>
+          <div className="blur"></div>
           <Image
             src="/images/hero.png"
             alt="hero_image"

@@ -92,6 +92,10 @@ body {
   @apply relative flex justify-center;
 }
 
+.blur {
+  @apply absolute -right-10 bottom-10 bg-customLime-700 w-[475] h-[475] rounded-full blur-[70px];
+}
+
 .hero-imagesCustomClass1 {
   @apply absolute right-60 bottom-10 z-20;
 }
