@@ -65,7 +65,7 @@ body {
 }
 
 .textUnderline {
-  @apply underline decoration-customLime-700
+  @apply underline decoration-customLime-700;
 }
 
 .hero-buttonGroup {
@@ -100,19 +100,7 @@ body {
   @apply absolute -right-10 bottom-10 bg-customLime-700 w-[475] h-[475] rounded-full blur-[70px];
 }
 
-.hero-imagesCustomClass1 {
-  @apply absolute right-60 bottom-10 z-20;
-}
-
-.hero-imagesCustomClass2 {
-  @apply absolute left-[262px] bottom-[225px] z-10;
-}
-
-.hero-imagesCustomClass2 {
-  @apply absolute left-72 bottom-4 z-20;
-}
-
-.hero-imageCustom {
+.hero-cardCustom {
   @apply z-10 w-full;
 }
 

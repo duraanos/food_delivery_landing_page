@@ -53,7 +53,7 @@ export default function Hero() {
             alt="hero_image"
             width={400}
             height={400}
-            className="hero-imageCustom"
+            className="hero-cardCustom"
           />
         </div>
       </div>
