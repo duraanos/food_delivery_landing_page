@@ -232,3 +232,38 @@ body {
 .downloadtoapp-platforms {
   @apply flex gap-5;
 }
+
+/* FOOTER MODULE */
+/* ****************************************************************************************************************** */
+
+.footer {
+  @apply bg-customLime-900;
+}
+
+.footer-item {
+  @apply grid grid-cols-2 gap-10 h-96 p-10 w-full;
+}
+
+.footer-info {
+  @apply flex flex-col gap-5;
+}
+
+.footer-copyright {
+  @apply text-customLime-100 text-xs;
+}
+
+.footer-navigation {
+  @apply flex justify-center gap-10;
+}
+
+.footer-navigationTitle {
+  @apply font-bold text-lg text-customLime-100 mb-[10px];
+}
+
+.footer-navigationListItem {
+  @apply mb-2;
+}
+
+.footer-navigationItem {
+  @apply text-customLime-100 text-sm;
+}
