@@ -209,3 +209,26 @@ body {
 .letsdoittogether-cardDescription {
   @apply text-customLime-900;
 }
+
+/* DOWNLOAD-TO-APP MODULE */
+/* ****************************************************************************************************************** */
+
+.downloadtoapp {
+  @apply mb-32;
+}
+
+.downloadtoapp-item {
+  @apply flex flex-col items-center justify-between gap-[5px];
+}
+
+.downloadtoapp-title {
+  @apply font-bold text-3xl text-customLime-900;
+}
+
+.downloadtoapp-description {
+  @apply text-customLime-900 text-xl;
+}
+
+.downloadtoapp-platforms {
+  @apply flex gap-5;
+}
