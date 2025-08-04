@@ -25,3 +25,20 @@ body {
     text-wrap: balance;
   }
 }
+
+/* HEADER MODULE */
+.navbar {
+  @apply flex justify-between items-center;
+}
+
+.buttonGroup {
+  @apply flex gap-[14px];
+}
+
+.buttonGroup-firstItem {
+  @apply text-customLime-700 border-2 border-customLime-700 rounded-[16px] font-medium p-[10px];
+}
+
+.buttonGroup-SecondItem {
+  @apply bg-customLime-950 text-white rounded-[16px] font-medium p-[10px];
+}
