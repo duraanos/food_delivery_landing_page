@@ -1,14 +1,12 @@
-'use client';
-
 import { navigation } from '@/lib/utils';
 import Image from 'next/image';
 import Link from 'next/link';
 
 export default function Footer() {
   return (
-    <footer className="bg-customLime-900">
-      <div className="grid grid-cols-2 gap-10 h-96 p-10 w-full">
-        <div className="flex flex-col gap-5">
+    <footer className="footer">
+      <div className="footer-item">
+        <div className="footer-info">
           <div>
             <Link href={'/'}>
               <Image
@@ -68,21 +66,18 @@ export default function Footer() {
               />
             </Link>
           </div>
-          <p className='text-customLime-100 text-xs'>© BellyGo 2030 - All Rights Reserved</p>
+          <p className="footer-copyright">
+            © BellyGo 2030 - All Rights Reserved
+          </p>
         </div>
-        <div className="flex justify-center gap-10">
+        <div className="footer-navigation">
           <div>
             <div>
-              <h3 className="font-bold text-lg text-customLime-100 mb-[10px]">
-                Features
-              </h3>
+              <h3 className="footer-navigationTitle">Features</h3>
               <ul role="list">
                 {navigation.feature.map(item => (
-                  <li key={item.name} className="mb-2">
-                    <Link
-                      href={item.href}
-                      className="text-customLime-100 text-sm"
-                    >
+                  <li key={item.name} className="footer-navigationListItem">
+                    <Link href={item.href} className="footer-navigationItem">
                       {item.name}
                     </Link>
                   </li>
@@ -93,16 +88,11 @@ export default function Footer() {
 
           <div>
             <div>
-              <h3 className="font-bold text-lg text-customLime-100 mb-[10px]">
-                Company
-              </h3>
+              <h3 className="footer-navigationTitle">Company</h3>
               <ul role="list">
                 {navigation.company.map(item => (
-                  <li key={item.name} className="mb-2">
-                    <Link
-                      href={item.name}
-                      className="text-customLime-100 text-sm"
-                    >
+                  <li key={item.name} className="footer-navigationListItem">
+                    <Link href={item.name} className="footer-navigationItem">
                       {item.name}
                     </Link>
                   </li>
@@ -113,16 +103,11 @@ export default function Footer() {
 
           <div>
             <div>
-              <h3 className="font-bold text-lg text-customLime-100 mb-[10px]">
-                Support
-              </h3>
+              <h3 className="footer-navigationTitle">Support</h3>
               <ul role="list">
                 {navigation.help.map(item => (
-                  <li key={item.name} className="mb-2">
-                    <Link
-                      href={item.name}
-                      className="text-customLime-100 text-sm"
-                    >
+                  <li key={item.name} className="footer-navigationListItem">
+                    <Link href={item.name} className="footer-navigationItem">
                       {item.name}
                     </Link>
                   </li>
