@@ -12,13 +12,13 @@ export default function LetsDoItTogetherCard({
   description,
 }: LetsDoItTogetherCardProps) {
   return (
-    <div className='flex flex-col gap-5 w-52'>
+    <div className='letsdoittogether-card'>
       <div>
         <Image src={iconSrc} alt="rider" width={250} height={250} />
       </div>
-      <div className="flex flex-col gap-2">
-        <h3 className="text-customLime-900 font-bold text-xl">{title}</h3>
-        <p className="text-customLime-900">{description}</p>
+      <div className="letsdoittogether-cardItem">
+        <h3 className="letsdoittogether-cardTitle">{title}</h3>
+        <p className="letsdoittogether-cardDescription">{description}</p>
       </div>
     </div>
   );
