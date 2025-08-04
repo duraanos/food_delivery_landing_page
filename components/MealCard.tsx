@@ -7,7 +7,7 @@ interface MealCardProps {
   className: string;
 }
 
-"export default function MealCard(props: MealCardProps) {
+export default function MealCard(props: MealCardProps) {
   return (
     <div className={`hero-mealCard ${props.className}`}>
       <div className="hero-mealCardImage">
