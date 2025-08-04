@@ -27,6 +27,8 @@ body {
 }
 
 /* HEADER MODULE */
+/* ****************************************************************************************************************** */
+
 .navbar {
   @apply flex justify-between items-center;
 }
@@ -44,6 +46,7 @@ body {
 }
 
 /* HERO MODULE */
+/* ****************************************************************************************************************** */
 
 .hero {
   @apply flex items-center;
@@ -127,4 +130,47 @@ body {
 
 .hero-mealCardUnderlined {
   @apply font-medium underline;
+}
+
+/* HOW-TO-WORK MODULE */
+/* ****************************************************************************************************************** */
+
+.howtowork {
+  @apply mb-32;
+}
+
+.howtowork-item {
+  @apply flex flex-col justify-between items-center gap-[16px] mb-5;
+}
+
+.howtowork-title {
+  @apply font-medium text-4xl;
+}
+
+.howtowork-description {
+  @apply text-lg text-customLime-900;
+}
+
+.howtowork-cards {
+  @apply grid grid-cols-4 gap-4;
+}
+
+.howtowork-card {
+  @apply bg-gradient-to-t from-customGreen-100 to-customLime-100 flex flex-col items-center p-[20px] rounded-2xl;
+}
+
+.howtowork-cardImageCustomClass {
+  @apply text-customLime-900;
+}
+
+.howtowork-cardItem {
+  @apply flex flex-col items-center;
+}
+
+.howtowork-cardTitle {
+  @apply text-customLime-900 font-semibold text-xl mb-[16px];
+}
+
+.howtowork-cardDescription {
+  @apply text-customLime-900 text-base;
 }
