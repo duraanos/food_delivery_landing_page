@@ -174,3 +174,38 @@ body {
 .howtowork-cardDescription {
   @apply text-customLime-900 text-base;
 }
+
+/* LET'S-DO-IT-TOGETHER */
+/* ****************************************************************************************************************** */
+
+.letsdoittogether {
+  @apply p-5;
+}
+
+.letsdoittogether-item {
+  @apply flex flex-col items-center justify-center mb-6;
+}
+
+.letsdoittogether-title {
+  @apply text-3xl text-customLime-900 font-medium;
+}
+
+.letsdoittogether-cards {
+  @apply grid grid-cols-3 gap-3 place-items-center mb-10;
+}
+
+.letsdoittogether-card {
+  @apply flex flex-col gap-5 w-52;
+}
+
+.letsdoittogether-cardItem {
+  @apply flex flex-col gap-2;
+}
+
+.letsdoittogether-cardTitle {
+  @apply text-customLime-900 font-bold text-xl;
+}
+
+.letsdoittogether-cardDescription {
+  @apply text-customLime-900;
+}
